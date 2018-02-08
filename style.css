@@ -1,0 +1,82 @@
+@import url("components/button.css");
+
+
+body {
+  background-color: white;
+  color: rgb(130, 130, 130);
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  text-align: center;
+  line-height: 1.6em;
+}
+
+table {
+  font-weight: 300;
+  font-size: 15px;
+  text-align: center;
+}
+
+a{
+  text-decoration: none;
+}
+
+#profile_pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+h3{
+  font-size: 10;
+  font-weight: 100;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.picture-table {
+  width: 214px;
+  height: 317px;
+}
+
+ul{
+  list-style: none;
+}
+
+li {
+  display:inline-block;
+}
+
+.container {
+  width: 600px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+
+.card {
+    line-height: 24px;
+    background: #BFF2FC;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin:20px;
+    margin-bottom: 20px;
+    border-radius: 4px;
+}
+
+.list-inline{
+    size: 10px;
+    text-align: center;
+    display: block;
+    display; flex;
+    justify-content: space-between;
+  }
+
+.text-align {
+  display: inline;
+  text-align: center;
+  display: flex;
+  flex-grow:1;
+  justify-content: space-around;
+}
+
+
+
